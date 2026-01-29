@@ -1,5 +1,9 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
+import About from './Pages/About';
+import Service from './Pages/Service';
 
 
 function App() {
@@ -8,7 +12,17 @@ function App() {
   return (
     <>
      
-     <Home/>
+  <Navbar/>
+
+  <Routes>
+
+    <Route path="/" element ={<Home />}/>
+    <Route path="/About" element ={<About />}/>
+    <Route path="/Service" element ={<Service />}/>
+
+
+
+  </Routes>
         
     </>
   )

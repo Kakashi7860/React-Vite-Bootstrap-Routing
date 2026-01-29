@@ -1,5 +1,5 @@
 
-
+import { Routes,Route } from 'react-router';
 import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
 import About from './Pages/About';

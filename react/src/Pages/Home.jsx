@@ -1,5 +1,6 @@
 function Home(){
-    <>
+   return(
+     <>
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div classNameName="container-fluid">
     <a className="navbar-brand" href="#">Navbar</a>
@@ -37,6 +38,7 @@ function Home(){
   </div>
 </nav>
     </>
+   )
 
 }
 export default Home;
